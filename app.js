@@ -48,7 +48,7 @@ const app = () => {
         } else {
             song.pause()
             video.pause()
-            play.src = '/svg/play.svg'
+            play.src = './svg/play.svg'
         }
     }
 
